@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vighnan Tech Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0a3d62;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    nav {
+      background: #074270;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #dff1ff;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #999;
+    }
+    button {
+      padding: 10px 20px;
+      background: #0a3d62;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  @keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-10px);} 
+  60% {transform: translateY(-5px);} 
+}
+</style>
+</head>
+<body>
+
+<header>
+  <!-- Insert your logo -->
+  <img src="C:\Users\Krushnaa Mahanty\OneDrive\Desktop\manual testing\vta\logo.png" alt="Vighnan Tech Academy Logo" />
+  <h1>Vighnan Tech Academy</h1>
+  <p>Empower your future with Vighnan Tech Academy</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+  <a href="#register">Register</a>
+</nav>
+
+<div class="hero">
+  <h2>Welcome to Vighnan Tech Academy</h2>
+  <p>Your journey to a successful tech career starts here.</p>
+</div>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>Vighnan Tech Academy is an online learning institute dedicated to providing high‑quality training in technology, software development, analytics, and professional skills. Our mission is to make education accessible, affordable, and effective.</p>
+  <p><a href="#top" style="color:#0a3d62; font-weight:bold; text-decoration:none;">⬅ Back</a></p>
+</section>
+
+<section id="courses" class="section">
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="card"><h3>Advanced Excel</h3></div>
+    <div class="card"><h3>C++ Programming Language</h3></div>
+    <div class="card"><h3>Java Programming Language</h3></div>
+    <div class="card"><h3>Python Programming Language</h3></div>
+    <div class="card"><h3>Web Development</h3></div>
+    <div class="card"><h3>SQL</h3></div>
+    <div class="card"><h3>Power BI</h3></div>
+    <div class="card"><h3>Data Analytics</h3></div>
+    <div class="card"><h3>MS Office</h3></div>
+    <div class="card"><h3>MongoDB</h3></div>
+  </div>
+  <p><a href="#top" style="color:#0a3d62; font-weight:bold; text-decoration:none;">⬅ Back</a></p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:vighnantech@gmail.com">vighnantech@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917670848152">+91 76708 48152</a></p>
+  <p>Address: Hyderabad, Telangana</p>
+  <p>WhatsApp: <a href="https://wa.me/917670848152">76708 48152</a></p>
+  <p><a href="#top" style="color:#0a3d62; font-weight:bold; text-decoration:none;">⬅ Back</a></p>
+</section>
+
+<section id="register" class="section">
+  <h2>Registration Form</h2>
+  <form id="registerForm" id="contactForm">
+    <input name="name" type="text" placeholder="Full Name" required />
+    <input name="email" type="email" placeholder="Email" required />
+    <input name="phone" type="text" placeholder="Phone Number" required />
+    <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p><a href="#top" style="color:#0a3d62; font-weight:bold; text-decoration:none;">⬅ Back</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Vighnan Tech Academy. All Rights Reserved.</p>
+</footer>
+
+  
+  <a href="https://wa.me/917670848152" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background: #25d366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 8px rgba(0,0,0,0.3); animation: bounce 2s infinite;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="30" fill="white">
+      <path d="M16.001 3.2c-7.061 0-12.8 5.739-12.8 12.8 0 2.259.589 4.462 1.708 6.4L3.2 28.8l6.666-1.742c1.861.99 3.951 1.515 6.135 1.515h.001c7.061 0 12.8-5.739 12.8-12.8s-5.739-12.8-12.801-12.8zm0 23.04h-.001c-1.92 0-3.792-.512-5.427-1.482l-.389-.23-3.957 1.034 1.056-3.84-.253-.397c-1.05-1.655-1.606-3.568-1.606-5.547 0-5.653 4.6-10.24 10.24-10.24 5.653 0 10.24 4.587 10.24 10.24 0 5.653-4.587 10.24-10.24 10.24zm5.547-7.68c-.301-.149-1.792-.883-2.069-.984-.277-.107-.48-.149-.683.149-.197.301-.784.981-.96 1.184-.176.197-.352.213-.653.064-.301-.149-1.269-.469-2.416-1.493-.893-.8-1.494-1.792-1.664-2.093-.176-.301-.019-.464.131-.613.131-.131.301-.341.448-.512.149-.171.197-.299.299-.5.101-.213.05-.389-.025-.539-.074-.149-.683-1.643-.939-2.24-.245-.587-.491-.507-.683-.517-.176-.011-.389-.011-.603-.011-.213 0-.555.08-.845.389-.288.309-1.109 1.085-1.109 2.645s1.136 3.067 1.293 3.278c.149.197 2.24 3.413 5.419 4.779.758.325 1.35.517 1.813.661.763.245 1.459.213 2.013.128.613-.091 1.792-.731 2.048-1.44.256-.709.256-1.317.181-1.44-.074-.123-.277-.197-.579-.341z"/>
+    </svg>
+  </a>
+  <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbxAEBLZqIGtYH1ZeJyZq4mewkdgPvIxYpOLxu7bVElRohnh-5YVT_EU1Bnlne-G9y4m/exec"; // Replace with your deployed Google Apps Script URL
+  
+    function connectForm(id){
+      const form = document.getElementById(id);
+      if(!form) return;
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(res => alert("Submitted Successfully!"))
+          .catch(err => alert("Error! Try again."));
+      });
+    }
+  
+    connectForm('contactForm');
+    connectForm('registerForm');
+  </script>
+</body>
+</html>
